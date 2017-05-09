@@ -22,14 +22,14 @@
         <!-- You can change the background -->
         <!--<item name="android:windowBackground">#ffeebbcc</item>-->
         <!--bug-->
-        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorBg</item>
 
         <!-- Change the font family with API 16+
         android:fontFamily="sans-serif"
         android:fontFamily="sans-serif-light"
         android:fontFamily="sans-serif-condensed"
         android:fontFamily="sans-serif-thin" -->
-        <item name="android:fontFamily">sans-serif</item>
+        <!--<item name="android:fontFamily">sans-serif</item>-->
 
         <item name="android:textStyle">bold</item>
 
@@ -62,6 +62,13 @@
      You can't do this with Android styles, but only with yours. -->
     <style name="EditText" parent="@style/TextView1">
         <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:shadowColor">#FF00FF00</item>
+        <item name="android:shadowDx">300</item>
+        <item name="android:shadowDy">100</item>
+        <item name="android:shadowRadius">100</item>
+
+
     </style>
 
     <!-- You can both inherit and add to a style as well -->
